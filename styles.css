@@ -1,0 +1,897 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*".container {
+    width: 100%;
+    
+}*/
+
+.run p {
+    text-align: center;
+    background: #afbfbf60;
+    padding: .4rem;
+    font-size: 11px;
+}
+
+nav {
+    display: flex;
+    /*justify-content: space-between;*/
+    
+    
+}
+
+nav .openMenu {
+    display: none;
+}
+
+.closeMenu {
+    display: none;
+}
+
+.logo p {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: .8rem;
+}
+
+/*.shop-now {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}*/
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+    gap: 5%;    
+    margin-top: 1.5rem;
+    margin-left: 7rem;    
+}
+
+.line {
+    display: none;
+}
+
+nav .mainMenu li a {
+    text-decoration: none;
+    color: #000;
+   /* font-weight: 700;*/
+}
+
+.hero {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+.hero-img img{
+    width: 100%;    
+    /*margin-top: 2rem;*/
+    
+}
+
+.hero-Nimg img {
+    width: 100%;
+    
+}
+
+.spring {
+    top: -150px;
+    position: relative;
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.spring a {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.spring p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.snickers h1 {
+    margin-left: 1rem;
+}
+
+.org {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 2.5%;
+}
+
+.new-work {
+    margin-top: 1rem;
+}
+
+.walk {
+    margin-top: 2rem;
+}
+
+.walk-img img {
+    width: 100%;
+}
+
+.walk-text h2 a {
+    color: #000;
+}
+
+.brand h1 {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.feature {
+    display: flex;
+    background: #2bc0ff;
+    padding: 1rem;
+    gap: 2.5%;
+    margin-top: 1.5rem;
+}
+
+.brands-img img {
+    width: 100%;
+}
+
+
+.brands-text h2 a {
+    color: #000;
+}
+
+.new h1 {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.arrivals {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 2.5%;
+    margin-top: 2rem;
+}
+
+.arrival {
+    background: #afbfbf60;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+.arrival-img img {
+    width: 100%;
+}
+
+.arrival-text {
+    margin-top: 4rem;
+}
+
+.cloud {
+    display: flex;
+    background: #afbfbf60;
+    margin-top: 4rem;
+    width: 60%;
+    padding-right: 5rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.cloud-monster {
+    display: none;
+}
+
+.cloud-img img {
+    width: 100%;
+}
+
+.cloud-text {
+    text-align: center;
+    margin-top: 1.4rem;
+    width: 100%;
+    font-size: 13px;
+    margin-left: 2rem;
+    
+}
+
+.cloud-text p {
+    width: 60%;
+    margin: auto;
+}
+
+.cloud-link {
+    margin-top: 2rem;
+}
+
+.cloud-link a {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: .6rem;
+    border-radius: 10px;
+}
+
+.inspire {
+    background: #55ff6d;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.inspiration {
+    display: flex;
+    gap: 2.5%;
+    margin-top: 2rem;
+}
+
+.refined-img img {
+    width: 100%;
+}
+
+.refined-text p {
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.refined-link {
+    margin-top: .7rem;
+}
+
+.refined-link a {
+    color: #000;
+}
+
+.best {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.new-best-sellers {
+    margin-top: 1rem;
+}
+
+.sellers {
+    display: flex;
+    gap: 2.5%;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.best-sellers {
+    background: #afbfbf60;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+    
+}
+
+.sellers-img img {
+    width: 100%;
+}
+
+.sellers-text {
+    margin-top: 4rem;
+}
+
+.sellers-text p a {
+    font-weight: 800;
+}
+
+.sell-new {
+    position: relative;
+    top: -400px;
+    
+}
+
+.sell-new a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 17px;
+    padding: .5rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+    border-bottom: 4px solid yellow;
+    font-weight: 800;
+}
+
+.sellers-text p a {
+    color: #000;
+}
+
+.some-best-sellers {
+    margin-top: 1rem;
+}
+
+.kid {
+    background: cyan;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.kids {
+    display: flex;
+    gap: 3%;
+}
+
+.kid h1 {
+    margin-top: 2rem;
+}
+
+.kids-img img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.kids-text {
+    margin-top: 1rem;
+}
+
+.kids-text a {
+    color: #000;
+    font-weight: 800;
+}
+
+.some {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.new-balance {
+    display: flex;
+    gap: 2.5%;
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.balance {
+    background: #afbfbf60;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+.balance-text {
+    margin-top: 4rem;
+}
+
+.balance-img img {
+    width: 100%;
+}
+
+.ways {
+    margin-top: 4rem;
+    margin-left: 2.3rem;
+}
+
+.save {
+    /*display: flex;*/
+    gap: 2.5%;
+    width: 95%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.save-text {
+    background: #afbfbf60;
+    display: flex;   
+    padding: 1rem;
+    margin-top: 2rem; 
+}
+
+.vip h1 {
+    margin-left: .7rem;
+    border: 3px solid #000;
+    padding: .7rem;
+    border-radius: 50%;
+    border-right: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.vip1 h1 {
+    margin-left: .7rem;
+    border: 3px solid #000;
+    border-radius: 30%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.vip2 h1 {
+    background: #000;
+    color: #fff;
+    padding: .7rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.shop-link {
+    margin-top: 1rem;
+}
+
+.shop-link a {
+    color: #000;
+}
+
+.join {
+    background: #15b6ff58;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.join-text {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.join-text p {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.email {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.email-input input {
+    width: 100%;
+    padding: .7rem;
+    padding-right: 10rem;
+    outline: none;
+    border: 1px solid #afbfbf60;
+    border-radius: 10px;
+}
+
+.email-submit {
+    margin-left: 1rem;
+    margin-top: .7rem;
+}
+
+.email-submit a {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: .7rem;
+    border-radius: 10px;
+}
+
+.ecomm {
+    display: flex;
+    margin-left: 4rem;
+    gap: 5%;
+    margin-top: 4rem;
+}
+
+.ecomm h1 {
+    font-size: 20px;
+}
+
+
+.customer-link a {
+    text-decoration: none;
+    margin-top: .7rem;
+    color: #000;
+}
+
+.customer-link {
+    display: grid;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.copyright h3 {
+    font-size: 18px;
+}
+
+
+
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+@media(max-width: 800px){
+    nav .mainMenu {
+        background-color: white;
+        width: 80%;
+        height: 100vh;
+        gap: 0%;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        gap: 2%;
+        animation: slideInFromRight 2s ease-out;
+        transition: top 1.5s ease;
+        display: none;
+    }
+    
+    .logo p {
+        font-size: 12px;
+        margin: 0;
+        margin-left: 1rem;
+        margin-top: .8rem;
+    }
+    
+    .line {
+       display: grid;
+       opacity: .2; 
+       margin-top: .7rem;
+    }
+    
+    nav .openMenu {
+        display: grid;
+    }
+    
+    nav .openMenu img {
+        width: 14%;
+        margin-left: 14rem;
+        cursor: pointer;
+    }
+    
+    .closeMenu {
+        display: grid;
+    }
+    
+    .closeMenu img {
+        width: 10%;
+        margin-left: 12rem;
+        cursor: pointer;
+        margin-top: .6rem;
+    }
+    
+    nav .mainMenu li a {
+        font-weight: 900;
+        
+        margin-left: 1rem;
+        font-size: 13px;
+    }
+    
+    .hero {
+        display: flex; 
+        margin: 0;
+    }
+    
+    .org {
+        margin-top: 1rem;
+    }
+    
+    .snickers h1 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+    }
+    
+    .walk-text {
+        text-align: center;
+    }
+    
+    .walk-text h2 a {
+        font-size: 12px;
+        text-decoration: none;
+        background-color: #000;
+        padding: .5rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        color: #fff;
+        border-radius: 6px;
+    }
+    
+    .hero-Nimg {
+        display: none;
+    }
+    
+    .org {
+        display: grid;
+    }
+    
+    .new-work {
+        display: flex;
+        gap: 3%;
+        
+    }
+    
+    .walk {
+        background: #afbfbf60;
+        padding: 1rem;
+        border-radius: 6px;
+    }
+    
+    .walk-img img {
+        border-radius: 6px;
+    }
+    
+    .brand h1 {
+        font-size: 12px;
+    }
+    
+    .brands-text {
+        text-align: center;
+    }
+    
+    .brands-text h2 a {
+        font-size: 12px;
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+        padding: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-radius: 6px;
+    }
+    
+    .arrivals {
+        display: grid;
+    }
+    
+    .new h1 {
+        font-size: 12px;
+    }
+    
+    .arrival-text {
+        text-align: center;
+    }
+    
+    .arrival-text h2 {
+        font-size: 12px;
+        background-color: #000;
+        color: #fff;
+        padding: .5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        border-radius: 6px;
+    }
+    
+    .arrival-new {
+        display: flex;
+        gap: 2.5%;
+    }
+    
+    .cloud {
+        width: 100%;
+        margin: 0;
+        margin-top: 4rem;
+        
+    }
+    
+    .cloud-img img {
+        width: 100%;
+        
+    }
+    
+    .cloud-text {
+        margin: 0;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 2rem;
+        margin-top: .4rem;
+    }
+    
+    .monster h1 {
+        font-size: 14px;
+        margin-left: 3.7rem;
+    }
+    
+    .cloud-text p {
+        width: 100%;
+        text-align: none;
+        margin: 0;
+        display: none;
+    }
+    
+    .cloud-link {
+        margin: 0;
+        width: 100%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .inspire h3 {
+        font-size: 12px;
+    }
+    
+    .refined-text p {
+        font-size: 12px;
+    }
+    
+    .refined-link a {
+        font-size: 12px;
+    }
+    
+    .best h1 {
+        font-size: 13px;
+    }
+    
+    .sellers {
+        display: grid;
+    }
+    
+    .sell-new a {
+        font-size: 12px;
+    }
+    
+    
+    .sellers-text p a {
+        font-size: 12px;
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+        padding: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-radius: 6px;
+        
+    }
+    
+    .new-best-sellers {
+        display: flex;
+        gap: 2.5%;
+    }
+    
+    .sell-new {
+        top: 0px;
+        top: 15px;
+    }
+    
+    .new-balance {
+        display: grid;
+    }
+    
+    .some-best-sellers {
+        display: flex;
+        gap: 2.5%;
+    }
+    
+    .kid h1 {
+        font-size: 12px;
+    }
+    
+    .kids-text a {
+        font-size: 10px;
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+        padding: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-radius: 6px;
+    }
+    
+    .some h1 {
+        font-size: 12px;
+    }
+    
+    .balance-text h2 {
+        font-size: 10px;
+        background-color: #000;
+        color: #fff;
+        padding: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-radius: 6px;
+    }
+    
+    .ways h1 {
+        font-size: 12px;
+    }
+    
+    .shop-text p {
+        font-size: 12px;
+    }
+    
+    .shop-link a {
+        font-size: 10px;
+    }
+    
+    .vip h1, .vip1 h1, .vip2 h1 {
+        font-size: 10px;
+    }
+    
+    .join {
+        padding-bottom: 2rem;
+    }
+    
+    .join-text {
+        width: 80%;
+        margin: 0;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .join-text h1 {
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 12px;
+    }
+    
+    .join-text p {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 11px;
+    }
+    
+    .email {
+        display: grid;
+    }
+    
+    .email-submit {
+        margin: 0;
+        margin-top: 2.5rem;
+        
+    }
+    
+    .email-submit a {
+        width: 100%;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 10px;
+    }
+    
+    .ecomm {
+        display: grid;
+        font-size: 12px;
+        margin: 0;
+        margin-left: 1rem;
+    }
+    
+    .ecomm-about h1 {
+        font-size: 11px;
+    }
+    
+    .customer h1 {
+        font-size: 11px;
+    }
+    
+    .resources h1 {
+        font-size: 11px;
+    }
+    
+    .explore h1 {
+        font-size: 11px;
+    }
+    
+    .copyright {
+        margin: 0;
+        margin-top: 2rem;
+    }
+    
+    .copyright p {
+        margin-top: 9rem;
+        font-size: 12px;
+    }
+}
